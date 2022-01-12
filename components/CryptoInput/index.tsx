@@ -9,7 +9,7 @@ const CryptoInput: React.FC<PropsType> = ({ amount, onAmountChange,currency}) =>
 
   return (
     <div className={styles.group}>
-      <input type="text" value={amount} onChange={ev => onAmountChange(ev.target.value)} />
+      <input type="number" value={amount} onChange={ev => onAmountChange(ev.target.value)} />
       <p>{currency}</p>
     </div>
   );

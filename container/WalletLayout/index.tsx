@@ -3,7 +3,7 @@ import { injected } from "../../components/Wallet";
 import styles from "./styles.module.css";
 
 function WalletLayout() {
-  const { active, account, chainId, library, connector, activate, deactivate } =
+  const { active, account, chainId, activate, deactivate } =
     useWeb3React();
 
   async function connect() {
