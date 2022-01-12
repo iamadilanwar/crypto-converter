@@ -10,6 +10,7 @@
     background: none;
     align-items: center;
     border:none;
+    outline: none;
     color:#fff;
 }
 .group > p{
