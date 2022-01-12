@@ -1,7 +1,6 @@
 {
   "name": "crypto-converter",
   "private": true,
-  "homepage": "https://iamadilanwar.github.io/crypto-converter",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
