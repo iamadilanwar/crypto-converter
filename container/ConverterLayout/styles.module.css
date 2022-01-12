@@ -1,0 +1,51 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerNEP {
+  margin-top: 5rem;
+  padding: 2rem;
+  width: 20rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(246, 248, 250, 1) 50%,
+    rgba(255, 0, 0, 1) 50%,
+    rgba(236, 240, 243, 1) 50%
+  );
+  box-shadow: inset 13px 13px 12px #cbced171, inset -13px -13px 13px rgba(255, 255, 255, 0.281);
+}
+.containerBUSD {
+  margin-top: 5rem;
+  padding: 2rem;
+  width: 20rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 240, 243, 1) 50%,
+    rgba(255, 0, 0, 1) 50%,
+    rgba(246, 248, 250, 1) 50%
+  );
+  box-shadow: inset 13px 13px 12px #cbced171, inset -13px -13px 13px rgba(255, 255, 255, 0.281);
+}
+.swipe {
+  background-color: #ecf0f3;
+  height: 50px;
+  width: 100px;
+  margin: 0.5rem;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.5),
+    2px 2px 5px rgba(70, 70, 70, 0.4);
+  border-radius: 20px;
+  border: 2px solid #ececec;
+  cursor: pointer;
+}

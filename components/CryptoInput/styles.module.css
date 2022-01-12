@@ -1,0 +1,17 @@
+.group{
+    background: #335;
+    margin: 1rem;
+    display: flex;
+    flex-direction:row;
+    border-radius: 15px;
+}
+.group > input{
+    margin: 1rem;
+    background: none;
+    align-items: center;
+    border:none;
+    color:#fff;
+}
+.group > p{
+    color: #fff;
+}

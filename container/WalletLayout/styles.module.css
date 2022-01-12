@@ -1,0 +1,45 @@
+.connected {
+  background-color: linear-gradient(
+    135deg,
+    #f093fb 0%,
+    #ff0022 100%
+  ) !important;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.5),
+    2px 2px 5px rgba(70, 70, 70, 0.25),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 5px rgba(70, 70, 70, 0.25);
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: 2px solid #ececec;
+  font-weight: bold;
+  cursor: pointer;
+  color: #e31564;
+}
+
+.disconnected {
+  background-color: #ecf0f3;
+  height: 50px;
+  width: 100px;
+  margin: 1rem;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.5),
+    2px 2px 5px rgba(70, 70, 70, 0.4);
+  border-radius: 20px;
+  border: 2px solid #ececec;
+  cursor: pointer;
+}
+.container {
+  overflow-wrap: break-word;
+  background: rgb(247, 247, 247);
+  border: 0;
+  color: rgb(58, 58, 58);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 2px #adadad, inset -2px -2px 2px #fff;
+}
+.containerDetails{
+text-align: left;
+}
